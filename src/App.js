@@ -7,16 +7,16 @@ export default function App() {
    <React.Fragment>
       <TopBar/>
       <div style={{paddingTop:"20px"}}>
-      <div>
+      <div style={{paddingBottom:'20px'}}>
+      <MediaCardComponent/>
+      </div >
+      <div style={{paddingBottom:'20px'}}>
       <MediaCardComponent/>
       </div>
-      <div>
+      <div style={{paddingBottom:'20px'}}>
       <MediaCardComponent/>
       </div>
-      <div>
-      <MediaCardComponent/>
-      </div>
-      <div>
+      <div style={{paddingBottom:'20px'}}>
       <MediaCardComponent/>
       </div>
       </div>
