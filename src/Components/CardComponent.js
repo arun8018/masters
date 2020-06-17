@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import ImgUrl from '../assets/Food.jpg'
+//import ImgUrl from '../assets/Food.jpg'
 
 const useStyles = makeStyles({
   root: {
@@ -26,22 +26,22 @@ export default function MediaCardComponent() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={ImgUrl}
+          // image={ImgUrl}
+          image={'https://i.ibb.co/dJcvqK2/Solid-state.png'}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Solid State
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          Solid state of matter possesses fixed mass, volume, shape and rigidity.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
        <Button variant="contained" color="primary" size="small">
-       <a style={{color:"white"}} href={'https://pdfhost.io/v/VE6FpftFr_10_The_sblock_elementspdf.pdf'}>Download</a>
+       <a style={{color:"white"}} href={'https://pdfhost.io/v/Uwxon0v7h_Solid_Statepdf.pdf'}>Download</a>
        </Button>
       </CardActions>
     </Card>

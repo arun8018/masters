@@ -6,7 +6,7 @@ export default function App() {
  return(
    <React.Fragment>
       <TopBar/>
-      <div style={{display:'flex',flexWrap:'wrap',paddingTop:"20px"}}>
+      <div style={{paddingTop:"20px"}}>
       <div>
       <MediaCardComponent/>
       </div>
